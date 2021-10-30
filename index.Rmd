@@ -4,8 +4,8 @@ author: "Brad Duthie"
 subtitle: "HTML Version: https://stirlingcodingclub.github.io/coding_types/notes.html"
 date: "18 OCT 2021"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 link-citations: yes
 linkcolor: blue
 bibliography: refs.bib
@@ -72,19 +72,82 @@ int main(void){
 }
 ```
 
-Once pasted, save the file as `count_to_1_billion.c`. If you get a box that pops up asking "Are you sure you want to change the type of the file so that it is no longer an R script?", then click "Yes". Note that you could have also pasted the code into a text editor such as notepad or gedit instead of Rstudio (but *not* in a word processor such as MS Word).
+Once pasted, save the file as `count_to_1_billion.c` (remember where you save it). If you get a box that pops up asking "Are you sure you want to change the type of the file so that it is no longer an R script?", then click "Yes". Note that you could have also pasted the code into a text editor such as notepad or gedit instead of Rstudio (but *not* in a word processor such as MS Word).
 
-Now we need to compile the code. How you do this depends on the operating system that you use (Mac, Linux, or Windows). I will first show how to compile and run for Mac and Linux, then how to compile and run for Windows. On Mac or Linux, you need to first open a terminal. You can do this by finding an external one on your computer (e.g., do a search for 'terminal', and one should be available), or by using the 'Terminal' tab right within Rstudio (see the middle tab below).
+Now we need to compile the code. How you do this depends on the operating system that you use (Mac, Linux, or Windows). I will first show how to compile and run for Mac and Linux, then how to compile and run for Windows. 
+
+**Mac and Linux Users**
+
+On Mac or Linux, you need to first open a terminal. You can do this by finding an external one on your computer (e.g., do a search for 'terminal', and one should be available), or by using the 'Terminal' tab right within Rstudio (see the middle tab below). Note that this Rstudio terminal is also available on a browser through [Rstudio cloud](https://rstudio.cloud), so you can use the Rstudio cloud to do the whole exercise (just make sure you upload the C file).
 
 ![](img/terminal_tab.png)
 
+Once you are in the terminal, you need to make sure to get to the correct directory. The directory will be in the same location as where you stored your `count_to_1_billion.c` file. To navigate to the correct directory, we need to use the change directory `cd` command in the terminal. In my case, I have saved `count_to_1_billion.c` to a folder called 'loc_sim' on my computer, so I will navigate to that folder with the command below, typing `cd loc_sim` (hint `cd ..` moves you up a directory, if you ever need it) followed by the 'Enter' key.
 
+```
+brad@brad-HP:~$ cd loc_sim
+```
 
+This puts me in the loc_sim directory. If I want to view the contents of this directory, I can type `ls`.
+
+```
+brad@brad-HP:~/loc_sim$ ls
+count_to_1_billion.c
+```
+
+Now I need to compile code. To do this, I will run the gcc compiler and the following command.
+
+```
+brad@brad-HP:~/loc_sim$ gcc -Wall count_to_1_billion.c -o count_to_1_billion
+```
+
+The gcc compiler should be on most Linux and Mac computers. The `-Wall` above tells the compiler to give us warnings if necessary, and the rest of the code tells us to use the `count_to_1_billion.c` file to build the program `count_to_1_billion`. If there are no warnings, then the compiler should execute, and the new program should show up in my 'loc_sim' folder. To run it, I can use the following code.
+
+```
+./count_to_1_billion
+```
+
+Notice the amount of time that took when compared to the equivalent R code. 
+
+**Windows users**
+
+As with Mac and Linux users, you first need to open a terminal. You can do this by finding an external one on your computer (it's an app called 'Command Prompt' in Windows), or by using the 'Terminal' tab right within Rstudio (see the middle tab below).
+
+![](img/terminal_tab.png)
+
+Once you are in the terminal, you need to make sure to get to the correct directory. The directory will be in the same location as where you stored your `count_to_1_billion.c` file. to navigate to the correct directory, we can again use the same `cd` command (hint `cd ..` moves you up a directory), typing `cd loc_sim` followed by the Enter key.
+
+```
+C:\Users\User>cd loc_sim
+```
+
+This puts me in the loc_sim directory (on my Windows machine). If I want to view the contents of this directory, I can type `DIR` (I should see my file).
+
+```
+C:\Users\User\loc_sim>DIR
+ Volume in drive C has no label
+ Volume Serial Number is XXX-XXX
+ 
+ Directory of C:\Users\User\loc_sim
+ 
+30/10/2021 21:08   <DIR>       .
+30/10/2021 21:08   <DIR>       ..
+09/02/2021 22:28            255 count_to_1_billion.c
+              1 File(s)          255 bytes
+              2 Dir(s)  112,115,658,752 bytes free
+```
+
+Now let's compile the code. Microsoft windows does not actually come with a pre-installed compiler for the command prompt, so we first need to download one form [Visual Studio](https://visualstudio.microsoft.com/downloads/). Use the link to go to their page and download the 'Visual Studio' Community version (free for students, open-source contributors, and individuals). The most recent one at the time of writing is 'Visual Studio 2019'. You will need to download and install this onto your machine. After Visual Studio is successfully installed, then you will also need to install a Workload called 'Desktop development with C++' (see below).
+
+![](img/visual_studio.png)
+
+I might also recommend installing the Linux tools as well (scroll down).
 
 
 <a name = "Rcode">More R code to help get started</a>
 ================================================================================
 
+As mentioned earlier, I want to pick up where [last week]() left off with some useful things to know about coding in R.
 
 
 ```
