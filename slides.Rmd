@@ -2,7 +2,7 @@
 title: "General coding"
 author: "Stirling Coding Club"
 subtitle: stirlingcodingclub.github.io/coding_types/slides.pdf
-date: "10 February 2021"
+date: "03 November 2021"
 output:
   beamer_presentation:
     theme: "default"
@@ -64,7 +64,7 @@ urlcolor: blue
 \pause
 \vspace{4mm}
 
-1. Note, techically, any language *could* be compiled or interpreted.
+1. Note, technically, any language *could* be compiled or interpreted.
 
 
 ## R packages can include both compiled and intereted code
@@ -107,7 +107,7 @@ SEXP resource(SEXP RESOURCE, SEXP LANDSCAPE, SEXP PARAMETERS){
 
 \normalsize
 
-## The role of the processor and memory
+## The role of the processor
 
 \begin{itemize}
 \item Machine code is a list of instructions written in binary (1s \& 0s)
@@ -115,13 +115,31 @@ SEXP resource(SEXP RESOURCE, SEXP LANDSCAPE, SEXP PARAMETERS){
 \begin{itemize}
 \item CPUs can read and write to memory, and do maths (and that's about it)
 \item Instructions tell the CPU to read and write information to memory
-\end{itemize} \pause
+\end{itemize} 
+\end{itemize} 
+
+![](img/processor.jpg)
+
+\footnotetext[1]{{\bf Image:} \href{https://commons.wikimedia.org/wiki/File:AMD5k86-P75.jpg}{Public Domain}.}
+
+## The role of memory
+
+\begin{itemize}
 \item Random-access memory (RAM, or just `memory') is separate from the CPU, and holds data that can be read and changed
 \begin{itemize}
 \item Memory exists as binary digits (`bits') of ones and zeros
-\item Bits are grouped in chunks of eight to make one `byte'
+\item Bits are grouped in chunks of eight to make one `byte': \textit{Unit of data storage large enough to hold any basic character}.
 \end{itemize}
 \end{itemize}
+
+![](img/SDRAM.jpg)
+
+\footnotetext[1]{{\bf Image:} Vitaly Zdanevich,  \href{https://commons.wikimedia.org/wiki/File:AMD5k86-P75.jpg}{Public Domain}.}
+
+
+##
+
+![](img/computer_inside.jpg)
 
 
 ## Thinking about computer memory
