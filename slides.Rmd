@@ -120,7 +120,7 @@ SEXP resource(SEXP RESOURCE, SEXP LANDSCAPE, SEXP PARAMETERS){
 
 ![](img/processor.jpg)
 
-\footnotetext[1]{Image: \href{https://commons.wikimedia.org/wiki/File:AMD5k86-P75.jpg}{Public Domain}.}
+
 
 ## The role of memory
 
@@ -134,7 +134,7 @@ SEXP resource(SEXP RESOURCE, SEXP LANDSCAPE, SEXP PARAMETERS){
 
 ![](img/SDRAM.jpg)
 
-\footnotetext[1]{{\bf Image:} Vitaly Zdanevich,  \href{https://commons.wikimedia.org/wiki/File:AMD5k86-P75.jpg}{Public Domain}.}
+
 
 
 ##
