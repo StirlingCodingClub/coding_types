@@ -89,7 +89,7 @@ run_resource <- function(RESOURCE_c, LANDSCAPE_c, PARAMETERS_c){
 
 **A C file named `resource.c'**
 
-```{c, eval = FALSE}
+```
 SEXP resource(SEXP RESOURCE, SEXP LANDSCAPE, SEXP PARAMETERS){
  
     /* SOME STANDARD DECLARATIONS OF KEY VARIABLES, POINTERS   */
