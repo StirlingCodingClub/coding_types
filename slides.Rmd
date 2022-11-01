@@ -2,7 +2,7 @@
 title: "General coding"
 author: "Stirling Coding Club"
 subtitle: stirlingcodingclub.github.io/coding_types/slides.pdf
-date: "03 November 2021"
+date: "02 November 2022"
 output:
   beamer_presentation:
     theme: "default"
@@ -31,6 +31,7 @@ urlcolor: blue
 
 \begin{columns}
 \begin{column}{0.5\textwidth}
+\vspace{4mm}
 
 \textbf{Compiled code}
 \vspace{2mm}
@@ -50,7 +51,6 @@ urlcolor: blue
 \textbf{Interpreted code}
 
 \begin{itemize}
-\vspace{2mm}
 \item Code is run bit by bit through an interpreter
 \item Interpreter breaks down and executes code `on the fly'
 \item R, Perl, MATLAB, Python (high-level languages)$^{1}$
@@ -62,9 +62,9 @@ urlcolor: blue
 \end{column}
 \end{columns}
 \pause
-\vspace{4mm}
 
-1. Note, technically, any language *could* be compiled or interpreted.
+
+\footnotetext[1]{Technically, any language \textit{could} be compiled or interpreted.}
 
 
 ## R packages can include both compiled and intereted code
@@ -110,16 +110,16 @@ SEXP resource(SEXP RESOURCE, SEXP LANDSCAPE, SEXP PARAMETERS){
 ## The role of the processor
 
 \begin{itemize}
-\item Machine code is a list of instructions written in binary (1s \& 0s)
+\item Machine code: list of instructions written in binary (1s \& 0s)
 \item Binary instructions sent to the \textit{Central Processing Unit (CPU)}
 \begin{itemize}
-\item CPUs can read and write to memory, and do maths (and that's about it)
-\item Instructions tell the CPU to read and write information to memory
+\item CPUs read \& write to memory, and do maths (that's it)
+\item Instructions tell CPU to read \& write information to memory
 \end{itemize} 
 \end{itemize} 
 
 ![](img/processor.jpg)
-
+\footnotetext[1]{\textbf{Image:} Public domain}
 
 
 ## The role of memory
