@@ -1,11 +1,11 @@
 ---
 title: "Introduction to coding"
 author: "Brad Duthie"
-subtitle: "HTML Version: https://stirlingcodingclub.github.io/coding_types/"
-date: "2 NOV 2022"
+subtitle: "PDF Version: https://stirlingcodingclub.github.io/coding_types/index.pdf"
+date: "22 NOV 2023"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 link-citations: yes
 linkcolor: blue
 bibliography: refs.bib
