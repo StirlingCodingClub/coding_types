@@ -43,12 +43,19 @@
 x <- rnorm(10)
 
 x > 0
-x[x > 0]
+which(x == 0)
+which(x < 0)
 
-x <- c(x,NA)
+new_data <- x[x > 0]
+
+x <- c(x, NA)
 y <- x[!is.na(x)]
 
-(x+1)[!is.na(x) & (x > 0)] -> z
+(x+1)[!is.na(x+1) & (x+1 > 0)] -> z
+
+v1 <- x + 1;
+v2 <- v1[!is.na(v1)];
+v3 <- v2[v2 > 0];
 
 #or (better)
 
@@ -70,7 +77,7 @@ x[10:1]
 
 x[-(1:10)]
 
-fruit <- c(5,10,1,20)
+fruit        <- c(5,10,1,20)
 names(fruit) <- c("orange","banana","apple","peach")
 
 lunch <- fruit[c("apple","orange")]
@@ -159,7 +166,7 @@ attr(u,"dim") <- c(10,10)
 
 #Note something very confusing in R: The way R handles matrices is to fill things in column-wise first, not row-wise. So it will go down column [1,], then start filling column [2,], etc... To get around this:
 
-u2 <- matrix(data = u,ncol=10,nrow=10,byrow=TRUE)
+u2 <- matrix(data = u, ncol=10, nrow=10, byrow=TRUE)
 
 #Transposing works too.
 

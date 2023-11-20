@@ -37,11 +37,11 @@ urlcolor: blue
 \vspace{2mm}
 \begin{itemize}
 \item Directly translates everything to machine language
-\item Transatlation must occur before running code
+\item Translation must occur before running code
 \item C, C++, FORTRAN, Pascal (low-level languages)$^{1}$
 \item Two steps to execute code
 \item Faster performance (executes immediately after compiling)
-\item Slower and more laborious to code
+\item Slower and more laborious to code \pause
 \end{itemize}
 
 
