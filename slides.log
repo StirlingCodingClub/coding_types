@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.5.20)  2 NOV 2022 11:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.5.31)  22 NOV 2023 11:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -702,22 +702,13 @@ Package microtype Info: Loading configuration file microtype.cfg.
 File: microtype.cfg 2021/12/10 v3.0b microtype main configuration file (RS)
 )) (/usr/share/texlive/texmf-dist/tex/latex/parskip/parskip.sty
 Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
-) (/usr/share/texlive/texmf-dist/tex/latex/xurl/xurl.sty
-Package: xurl 2022/01/09 v 0.10 modify URL breaks
-) (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
-Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
-(/usr/share/texlive/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
-File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
-\BKM@id=\count340
-))
-Package hyperref Info: Option `colorlinks' set `true' on input line 86.
-(/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
 Package: fancyvrb 2021/12/21 4.1b verbatim text (tvz,hv)
-\FV@CodeLineNo=\count341
+\FV@CodeLineNo=\count340
 \FV@InFile=\read3
 \FV@TabBox=\box77
-\c@FancyVerbLine=\count342
-\FV@StepNumber=\count343
+\c@FancyVerbLine=\count341
+\FV@StepNumber=\count342
 \FV@OutFile=\write5
 ) (/usr/share/texlive/texmf-dist/tex/latex/framed/framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
@@ -732,17 +723,17 @@ Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 \LTright=\skip70
 \LTpre=\skip71
 \LTpost=\skip72
-\LTchunksize=\count344
+\LTchunksize=\count343
 \LTcapwidth=\dimen293
 \LT@head=\box78
 \LT@firsthead=\box79
 \LT@foot=\box80
 \LT@lastfoot=\box81
 \LT@gbox=\box82
-\LT@cols=\count345
-\LT@rows=\count346
-\c@LT@tables=\count347
-\c@LT@chunks=\count348
+\LT@cols=\count344
+\LT@rows=\count345
+\c@LT@tables=\count346
+\c@LT@chunks=\count347
 \LT@p@ftn=\toks48
 ) (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
@@ -756,12 +747,12 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen301
 \cmidrulekern=\dimen302
 \defaultaddspace=\dimen303
-\@cmidla=\count349
-\@cmidlb=\count350
+\@cmidla=\count348
+\@cmidlb=\count349
 \@aboverulesep=\dimen304
 \@belowrulesep=\dimen305
-\@thisruleclass=\count351
-\@lastruleclass=\count352
+\@thisruleclass=\count350
+\@lastruleclass=\count351
 \@thisrulewidth=\dimen306
 ) (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
@@ -788,15 +779,24 @@ Package caption Info: beamer document class detected.
 File: caption-beamer.sto 2020/08/22 v2.0 Adaption of the caption package to the
  beamer document classes (AR)
 ))
-\c@caption@flags=\count353
-\c@continuedfloat=\count354
+\c@caption@flags=\count352
+\c@continuedfloat=\count353
 Package caption Info: hyperref package is loaded.
 Package caption Info: Hyperref support is turned off
 (caption)             because hyperref has stopped early.
 Package caption Info: longtable package is loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
-)) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+)) (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
+Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
+File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
+\BKM@id=\count354
+)) (/usr/share/texlive/texmf-dist/tex/latex/xurl/xurl.sty
+Package: xurl 2022/01/09 v 0.10 modify URL breaks
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 156.
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count355
 \l__pdf_internal_box=\box85
@@ -987,7 +987,7 @@ Package caption Info: End \AtBeginDocument code.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
-173.
+175.
 (/usr/share/texmf/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -996,80 +996,99 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-73.
+75.
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-173.
+175.
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-173.
+175.
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 173.
+(Font)              <17.28> on input line 175.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 173.
+(Font)              <12> on input line 175.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 173.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 173
+(Font)              <10> on input line 175.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 175
 .
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 173
+LaTeX Font Info:    Trying to load font information for U+msb on input line 175
 .
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 173.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 173.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 173.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <17.28> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 175.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 175.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 175.
 [2
 
+]pdfTeX warning (ext4): destination with the same identifier (name{how-does-cod
+e-actually-work}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.175 \end{frame}
+                  [3
+
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 212.
+(Font)              <10.95> on input line 214.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 212.
+(Font)              <8> on input line 214.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 214.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 214.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 214.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 214.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 214.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 214.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 212.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 214.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 212.
-[3
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 214.
+[4
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{compiled-ver
 sus-interpreted-code}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.212 \end{frame}
-                  [4
-
-]pdfTeX warning (ext4): destination with the same identifier (name{compiled-ver
-sus-interpreted-code}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.212 \end{frame}
+l.214 \end{frame}
                   [5
 
+]pdfTeX warning (ext4): destination with the same identifier (name{compiled-ver
+sus-interpreted-code}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.214 \end{frame}
+                  [6
+
 ]
-<img/gmse.png, id=49, 807.015pt x 444.66125pt>
+<img/gmse.png, id=55, 807.015pt x 444.66125pt>
 File: img/gmse.png Graphic file (type png)
 <use img/gmse.png>
-Package pdftex.def Info: img/gmse.png  used on input line 217.
+Package pdftex.def Info: img/gmse.png  used on input line 219.
 (pdftex.def)             Requested size: 307.28459pt x 169.31227pt.
-[6
+[7
 
  <./img/gmse.png>]
 \openout4 = `slides.vrb'.
@@ -1082,7 +1101,7 @@ File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <9> not available
 (Font)              Font shape `T1/lmtt/b/n' tried instead on input line 9.
-) [7
+) [8
 
 ] (./slides.vrbpdfTeX warning (ext4): destination with the same identifier (nam
 e{r-packages-can-include-both-compiled-and-intereted-code-1}) has been already 
@@ -1090,39 +1109,35 @@ used, duplicate ignored
 <to be read again> 
                    \relax 
 l.2 ...clude-both-compiled-and-intereted-code-1}{}
-                                                  ) [8
+                                                  ) [9
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 268.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 268.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 268.
+(Font)              <7> on input line 270.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <7> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 268.
-<img/processor.jpg, id=72, 424.2249pt x 176.8206pt>
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 270.
+<img/processor.jpg, id=78, 424.2249pt x 176.8206pt>
 File: img/processor.jpg Graphic file (type jpg)
 <use img/processor.jpg>
-Package pdftex.def Info: img/processor.jpg  used on input line 268.
+Package pdftex.def Info: img/processor.jpg  used on input line 270.
 (pdftex.def)             Requested size: 307.293pt x 128.08235pt.
-[9
-
- <./img/processor.jpg>]
-<img/SDRAM.jpg, id=79, 438.6789pt x 128.3997pt>
-File: img/SDRAM.jpg Graphic file (type jpg)
-<use img/SDRAM.jpg>
-Package pdftex.def Info: img/SDRAM.jpg  used on input line 281.
-(pdftex.def)             Requested size: 307.3007pt x 89.94579pt.
 [10
 
+ <./img/processor.jpg>]
+<img/SDRAM.jpg, id=86, 438.6789pt x 128.3997pt>
+File: img/SDRAM.jpg Graphic file (type jpg)
+<use img/SDRAM.jpg>
+Package pdftex.def Info: img/SDRAM.jpg  used on input line 283.
+(pdftex.def)             Requested size: 307.3007pt x 89.94579pt.
+[11
+
  <./img/SDRAM.jpg>]
-<img/computer_inside.jpg, id=86, 4657.4pt x 3493.05pt>
+<img/computer_inside.jpg, id=93, 4657.4pt x 3493.05pt>
 File: img/computer_inside.jpg Graphic file (type jpg)
 <use img/computer_inside.jpg>
-Package pdftex.def Info: img/computer_inside.jpg  used on input line 286.
+Package pdftex.def Info: img/computer_inside.jpg  used on input line 288.
 (pdftex.def)             Requested size: 307.28986pt x 230.46739pt.
-[11
+[12
 
  <./img/computer_inside.jpg>]
 \openout4 = `slides.vrb'.
@@ -1132,14 +1147,7 @@ LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line
 7.
 (/usr/share/texmf/tex/latex/lm/ts1lmtt.fd
 File: ts1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)) [12
-
-] (./slides.vrbpdfTeX warning (ext4): destination with the same identifier (nam
-e{thinking-about-computer-memory}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.2 ...pertarget{thinking-about-computer-memory}{}
-                                                  ) [13
+)) [13
 
 ] (./slides.vrbpdfTeX warning (ext4): destination with the same identifier (nam
 e{thinking-about-computer-memory}) has been already used, duplicate ignored
@@ -1155,27 +1163,34 @@ e{thinking-about-computer-memory}) has been already used, duplicate ignored
 l.2 ...pertarget{thinking-about-computer-memory}{}
                                                   ) [15
 
+] (./slides.vrbpdfTeX warning (ext4): destination with the same identifier (nam
+e{thinking-about-computer-memory}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2 ...pertarget{thinking-about-computer-memory}{}
+                                                  ) [16
+
 ]
 \openout4 = `slides.vrb'.
 
-(./slides.vrb) [16
+(./slides.vrb) [17
 
 ] (./slides.vrbpdfTeX warning (ext4): destination with the same identifier (nam
 e{thinking-about-computer-memory-1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.2 ...rtarget{thinking-about-computer-memory-1}{}
-                                                  ) [17
+                                                  ) [18
 
 ]
-<slides_files/figure-beamer/unnamed-chunk-5-1.pdf, id=129, 433.62pt x 289.08pt>
+<slides_files/figure-beamer/unnamed-chunk-5-1.pdf, id=136, 433.62pt x 289.08pt>
 
 File: slides_files/figure-beamer/unnamed-chunk-5-1.pdf Graphic file (type pdf)
 <use slides_files/figure-beamer/unnamed-chunk-5-1.pdf>
 Package pdftex.def Info: slides_files/figure-beamer/unnamed-chunk-5-1.pdf  used
- on input line 398.
+ on input line 400.
 (pdftex.def)             Requested size: 307.30333pt x 204.86888pt.
-[18
+[19
 
  <./slides_files/figure-beamer/unnamed-chunk-5-1.pdf>]
 \tf@nav=\write6
@@ -1189,27 +1204,28 @@ Package pdftex.def Info: slides_files/figure-beamer/unnamed-chunk-5-1.pdf  used
 
 (./slides.aux) ) 
 Here is how much of TeX's memory you used:
- 27007 strings out of 478287
- 517197 string characters out of 5849289
- 826639 words of memory out of 5000000
- 44450 multiletter control sequences out of 15000+600000
- 554735 words of font info for 146 fonts, out of 8000000 for 9000
+ 27075 strings out of 478287
+ 518297 string characters out of 5849289
+ 826648 words of memory out of 5000000
+ 44486 multiletter control sequences out of 15000+600000
+ 577784 words of font info for 173 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,11n,122p,1003b,575s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 128i,11n,122p,1003b,645s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/tex
 mf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmss10.
 pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/
-type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmss9.pfb></u
-sr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1
-/public/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso9.pfb></usr
-/share/texmf/fonts/type1/public/lm/lmtk10.pfb></usr/share/texmf/fonts/type1/pub
-lic/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt9.pfb></usr/share
-/texmf/fonts/type1/public/lm/lmtti10.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/symbols/msam10.pfb>
-Output written on slides.pdf (18 pages, 5540971 bytes).
+type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></
+usr/share/texmf/fonts/type1/public/lm/lmss9.pfb></usr/share/texmf/fonts/type1/p
+ublic/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb></usr
+/share/texmf/fonts/type1/public/lm/lmsso17.pfb></usr/share/texmf/fonts/type1/pu
+blic/lm/lmsso9.pfb></usr/share/texmf/fonts/type1/public/lm/lmtk10.pfb></usr/sha
+re/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/
+lm/lmtt9.pfb></usr/share/texmf/fonts/type1/public/lm/lmtti10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on slides.pdf (19 pages, 5581052 bytes).
 PDF statistics:
- 211 PDF objects out of 1000 (max. 8388607)
- 150 compressed objects within 2 object streams
- 47 named destinations out of 1000 (max. 500000)
- 51268 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 228 PDF objects out of 1000 (max. 8388607)
+ 162 compressed objects within 2 object streams
+ 49 named destinations out of 1000 (max. 500000)
+ 65604 words of extra memory for PDF output out of 74296 (max. 10000000)
 

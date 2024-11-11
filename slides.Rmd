@@ -2,7 +2,7 @@
 title: "General coding"
 author: "Stirling Coding Club"
 subtitle: stirlingcodingclub.github.io/coding_types/slides.pdf
-date: "02 November 2022"
+date: "22 November 2023"
 output:
   beamer_presentation:
     theme: "default"
@@ -20,9 +20,11 @@ urlcolor: blue
 
 ## How does code actually work?
 
+\LARGE
+
 \begin{itemize}
 \item Programmers work with \textbf{source code} (e.g., R, python)
-\item Computers execute \textbf{machine language} (binary)
+\item Computers execute \textbf{machine language} (binary) \pause
 \item To get from source code to machine language, we can \textit{compile} code or \textit{interpret} it.
 \end{itemize}
 
